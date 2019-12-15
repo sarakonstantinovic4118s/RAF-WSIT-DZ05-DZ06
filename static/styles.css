@@ -1,0 +1,22 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: blue;
+    color:lightgray;
+}
+tbody tr:nth-child(even) {
+    background-color: lightblue;
+}
+.holder{
+    width: 100%;
+}
+.holder div{
+    display: inline-block;
+    width: 49.5%;
+    vertical-align: top;
+    text-align: center;
+}
